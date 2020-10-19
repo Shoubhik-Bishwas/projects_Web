@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socks Pair</title>
+    <link rel="stylesheet" href="socks.css">
+    <script src="socksPair.js"></script>
+</head>
+
+<body>
+    <form >
+        <div>
+            <label for="socks">Total Socks: </label>
+            <input type="number" id="n1">
+            <button id="Enter" type="button" onclick="enterSocks()">Enter</button>            
+        </div>
+        <div>
+            <br>
+            <br>
+            <label>Colors: </label>
+            <label id="color">--</label>
+        </div>
+        <div >
+            <br>
+            <br>
+            <br>
+            
+            <button id="find" type="button" onclick="findPairs()">Find Pairs</button>
+            <h1 id="result">--Pairs--</h1>
+        </div>
+    </form>
+</body>
+</html>

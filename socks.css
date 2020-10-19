@@ -1,0 +1,35 @@
+.container{
+    align:center;
+}
+form{
+    border: 10px solid rgb(145, 134, 134);
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    margin:auto;
+    margin-top: 150px;
+    background-color: rgb(0, 225, 255);
+}
+
+input{
+    width: 50px;
+    height: 35px;
+}
+#Enter{
+    width: 100px;
+    height: 40px;
+    margin-left: 50px;
+}
+#find{
+    width: 100px;
+    height: 40px;
+    margin-left: 100ox;
+}
+#result{
+    display: inline;
+    margin-left: 70px;
+
+}
+
+
+
